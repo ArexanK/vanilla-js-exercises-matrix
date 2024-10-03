@@ -38,7 +38,7 @@ console.log(sentence)
 //Write a function that takes an array of names and a name as a parameter. The function should check if the given name exists in the array and return true or false.
 
 const people=["Alice", "Bob", "Janice"]
-git
+
 
 
 
@@ -46,3 +46,16 @@ function nameCheck(nameAvalaible, people){
 
 
 }
+
+//Create an array of even numbers from 1 to 20 using a `for` loop and the `if` statement. Log the resulting array to the console.
+
+const evenNumbers =[]
+
+for (let i = 1; i <= 20; i++) {
+     if (i % 2 === 0){
+        evenNumbers.push(i)
+     }
+    }
+    console.log(evenNumbers)
+
+    
