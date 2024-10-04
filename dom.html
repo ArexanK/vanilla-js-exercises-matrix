@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/dom.js"></script>
+    <title>Dom</title>
+  </head>
+  <body>
+    <!--task 1-->
+    <section>
+      <div id="myText">Hello world</div>
+      <button id="myButton">Click me</button>
+    </section>
+    <!--task 2-->
+    <section>
+      <ul id=" myList">
+        <li>Learn HTML</li>
+        <li>Learn CSS</li>
+        <li>Learn JS</li>
+      </ul>
+      <button id="addButton">click to add</button>
+    </section>
+    <!--task 3-->
+    <section>
+      <img id="myImage" src="/assets/image-island.jpeg" alt="" />
+      <button id="changeButton">change image</button>
+    </section>
+    <!--task 4-->
+    <section>
+      <div class="login-container">
+        <h2>Login</h2>
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter Username" />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter Password" />
+        </div>
+        <button class="login-btn" onclick="login()">Login</button>
+        <p class="error-message" id="error-msg">Invalid username or password</p>
+      </div>
+    </section>
+  </body>
+</html>
