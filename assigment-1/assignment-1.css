@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    padding-top: 10rem;
+    display: flex;
+    align-items: center;
+  }
+  header img {
+    top: 0;
+    left: 0;
+    position: fixed;
+  }
+  body {
+    font-family: "sans-serif";
+    background-color: #f5f5f5;
+    color: black;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  nav ul {
+    display: flex;
+    gap: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    list-style: none;
+    padding: 1rem 1rem;
+    margin: 1rem;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  h1,
+  h2 {
+    margin: 1rem 1rem;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  .content-card {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  aside {
+    width: 50%;
+    padding-left: 0.3rem;
+    margin-left: 2rem;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    max-width: 600px;
+  }
+  aside ul {
+    list-style: none;
+    margin: 1rem 1rem;
+  }
+  
+  .blockquote {
+    display: grid;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    padding: 1rem 1rem;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  .quote-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem 1rem;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 1rem;
+  }
+  
+  .subscribers-container {
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    max-width: 600px;
+    padding: 1rem 1rem;
+  }
+  
+  .form-container {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    max-width: 600px;
+    padding: 1rem 1rem;
+  }
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  

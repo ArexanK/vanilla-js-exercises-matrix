@@ -28,8 +28,8 @@ changeButton.addEventListener("click", function () {
 
 //Build an interactive form in HTML (e.g., a simple login form) with input fields for username and password. Write JavaScript to validate the form when submitted. Display a message based on whether the login was successful or not.
 
-const validUsername = "";
-const validPassword = "";
+const validUsername = "Arex";
+const validPassword = "Kheyr";
 
 function login() {
   const myPassword = document.getElementById("password");

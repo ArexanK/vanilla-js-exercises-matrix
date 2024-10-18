@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assigment-1/assignment-1.css" />
+    <script src="/assigment-1/assignment-1.js" defer></script>
+    <title>Your first website</title>
+
+    <!--HTML: assignment 3 + CSS: assignment 2-->
+  </head>
+  <body>
+    <!--HEADER & NAV-->
+    <header>
+      <img src="/assigment-1/assets/logo-nature.png" alt="logo" width="200px" />
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#Nature">Nature</a></li>
+          <li><a href="#Qoute">Quote</a></li>
+          <li><a href="#Blog">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--SECTIONS & ARTICLES & DIV -->
+
+    <h1 id="nature">All about Nature</h1>
+    <main>
+      <div class="grid-container">
+        <section id="section1" class="content-card">
+          <h2>Socotra Trees</h2>
+          <p>
+            The Socotra tree, or Dragon's Blood Tree, is a rare, umbrella-shaped
+            tree found only on the isolated island of Socotra, known for its red
+            resin, which was historically valued for its medicinal and dye
+            properties.
+          </p>
+          <figure>
+            <img
+              src="/assigment-1/assets/socotra-tree.webp"
+              alt="socotra tree"
+              style="width: 300px"
+            />
+            <figcaption>Socotra tree in Yemen</figcaption>
+          </figure>
+        </section>
+
+        <section id="section2" class="content-card">
+          <h2>Pyramids</h2>
+          <p>
+            The Pyramids of Egypt, especially the Great Pyramid of Giza, are
+            ancient wonders built as tombs for pharaohs, showcasing the
+            extraordinary architectural skills of ancient Egyptians.
+          </p>
+          <figure>
+            <img
+              src="assets/pyramids.webp"
+              alt="pyramids in Egypt"
+              style="width: 200px"
+            />
+            <figcaption>Pyramids in Egypt</figcaption>
+          </figure>
+        </section>
+
+        <section id="section3" class="content-card">
+          <h2>Pamukkala</h2>
+          <p>
+            Pamukkale, located in Turkey, is famous for its stunning white
+            terraces made of travertine, formed by mineral-rich thermal waters
+            cascading down the hillsides for thousands of years.
+          </p>
+          <figure>
+            <img
+              src="assets/pamukkale.webp"
+              alt="Pamukkale in Turkey"
+              style="width: 200px"
+            />
+            <figcaption>Pamukkale in Turkey</figcaption>
+          </figure>
+        </section>
+        <section id="section4" class="content-card">
+          <h2>Mountain Roraima</h2>
+          <p>
+            Mount Roraima is a dramatic tabletop mountain in the Guiana
+            Highlands, where its sheer cliffs and mist-shrouded plateau inspire
+            myths, with ecosystems so unique they seem otherworldly.
+          </p>
+          <figure>
+            <img
+              src="assets/mountian-roraima.webp"
+              alt="Mountain Roraima in Venezuela"
+              style="width: 300px"
+            />
+            <figcaption>Mountain Roraima in Venezuela</figcaption>
+          </figure>
+        </section>
+      </div>
+      <!--ASIDE-->
+      <section class="quote-container">
+        <aside>
+          <h2>Recent Quotes</h2>
+          <ul>
+            <li><a href="#">Quote 16-09</a></li>
+            <li><a href="#">Quote 17-09</a></li>
+            <li><a href="#">Quote 18-09</a></li>
+            <li><a href="#">Quote 19-09</a></li>
+            <li><a href="#">Quote 20-09</a></li>
+            <li><a href="#">Quote 21-09</a></li>
+          </ul>
+        </aside>
+
+        <!--QUOTATIONS-->
+        <section class="blockquote">
+          <h1>Random Quote Generator</h1>
+          <div id="quote">Click the button to get a quote!</div>
+          <div id="author"></div>
+          <button id="newQuoteButton">New Quote</button>
+        </section>
+      </section>
+
+      <h2 id="Blog">Weekly blogpost!</h2>
+      <div class="grid-container">
+        <article class="content-card">
+          <h3>
+            "The Amazon Rainforest: An Exploration of Earth's Lungs and
+            Biodiversity Hotspot"
+          </h3>
+          <small>posted by Arex on September 16</small>
+          <p>
+            The Amazon Rainforest, often called the 'lungs of the Earth,' is a
+            critical ecosystem ...
+          </p>
+          <img
+            src="assets/amazon-forest.webp"
+            alt="Amazon forest"
+            width="300px"
+          />
+          <button id="read-more">Read more</button>
+        </article>
+        <article class="content-card">
+          <h3>
+            "Glaciers in Peril: How Climate Change is Transforming the World's
+            Icy Giants"
+          </h3>
+          <small>posted by Arex on September 16</small>
+          <p>
+            As global temperatures rise, glaciers around the world are
+            retreating at an alarming rate...
+          </p>
+          <img
+            src="assets/glaciers.webp"
+            alt="`Glaciers in Peril"
+            width="300px"
+          />
+          <button id="read-more">Read more</button>
+        </article>
+        <article class="content-card">
+          <h3>
+            "The Northern Lights: Understanding the Science and Magic Behind the
+            Aurora Borealis"
+          </h3>
+          <small>posted by Arex on September 16</small>
+          <p>
+            The Northern Lights, or Aurora Borealis, enchant viewers with their
+            dazzling...
+          </p>
+          <img
+            src="assets/nothern-lights.webp"
+            alt="the Nothern Lights"
+            width="300px"
+          />
+          <button id="read-more">Read more</button>
+        </article>
+      </div>
+    </main>
+
+    <!--TABLE-->
+    <div class="wrapper">
+      <section class="subscribers-container">
+        <h3>Subscribers to our webpage!</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Names</th>
+              <th>Countries</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>Netherlands</td>
+              <td>28</td>
+            </tr>
+            <tr>
+              <td>Jane Doe</td>
+              <td>Polen</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td>John Doe</td>
+              <td>Italy</td>
+              <td>35</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!--FORM-->
+      <section class="form-container">
+        <h3>Contact for questions!</h3>
+        <form id="my-form">
+          <label>Name:</label>
+          <input
+            type="text"
+            name="fullname"
+            placeholder="Enter your full name"
+            required
+          />
+
+          <label>email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <label>password</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          />
+          <label>Date of Birth:</label>
+          <input type="date" name="dob" required />
+          <label>Gender:</label>
+          <input type="radio" name="gender" value="male" required /> Male
+          <input type="radio" name="gender" value="female" required /> Female
+          <input type="radio" name="gender" value="other" required /> Other
+          <label>More decription:</label>
+          <textarea
+            name="comments"
+            placeholder="Any comments or notes?"
+            rows="5"
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+    <!--FOOTER-->
+    <footer>
+      <p>&copy;2024 web page Arex Kheyrdoon</p>
+    </footer>
+  </body>
+</html>
