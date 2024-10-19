@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICggICAcHBwcHCAoHBwcHBw8ICQcKFREWFhURHx8YJiggGBolGxMfITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDysZFRkrNysrKysrKysrKysrNysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIEBf/EABkQAQEAAwEAAAAAAAAAAAAAAAABMUGRcf/EABgBAQEBAQEAAAAAAAAAAAAAAAABAwIG/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/APbAcvYVYIsogKgAAKIoAALAAoAIokUQVFAABQBFisqCxUUQBBKoAKAAAIoAOQAbiKAsEWUQAAABRFAVAFCAgqAKAIoAEVFEFiANEARRFAAEURYAAIHegDlAG4AAigLKIogAAqAKEAFRQoAIoAgqKAQAUARZVZa0BFRRACCAAKEBAAHKIo3AAAACADSJKogACiKAACgCCoApAEUABUUQWIA0QIIoiiUABRFggADkAG6gAAAAALEWCAAAAKABFRRKAAokUCKiiCoCKACyqkUCKiiAEEFQBQBHIUBuKigAAAAEAStIQAABYIoCoAoAhFRQFQgigAoAg0ysBQBFBBKoALBFEchAg3KQpAUAAAAAFgkUQAAVFAABQBBUICkARQAIqKILEIDQAigAQAQWVAHKANlqQuiAoAAAAAEyqTMUQAAVFgAALAgIAAoAihABUUQABoSKIRUUAggigA5QBsEKQFAAAAAAVIogAAsRYAACwICAAKAIsCABBYIAAsVloBUBFAEoADlAGwQUAAAAAASrAgAAAqKAACwICAAKACwICAAigAKiwFAEUSKAAI5QBsKAAAAAAAlUAAABQAABYAIAAoALN+ACAAigALABQBCKAoAOa//Z");
+  background-repeat: none;
+}
+
+.container {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 325px;
+}
+
+.screen {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  font-size: 3rem;
+  height: 80px;
+  border: none;
+  background-color: transparent;
+  coller: #fff;
+  text-align: right;
+  padding-right: 20px;
+  padding-lefft: 10px;
+}
+
+button {
+  height: 60px;
+  border-radius: 20px;
+  border: 1px solid #c4c4c4;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 2rem;
+  color: #f8f8f8;
+}
+
+button:hover {
+  background-color: rgba(241, 115, 119, 0.4);
+}
+
+background:active {
+  background-color: rgba(241, 115, 119, 0.4);
+}
+
+al-clear:hover {
+  background-color: rgba(241, 115, 119, 0.4);
+}
+
+.equal-sign {
+  height: 100%;
+  grid-area: 2/4/6/5;
+}
+.equal-sign:hover {
+  background-color: rgba(78, 159, 212, 0.4);
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeats(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}
